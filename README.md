@@ -186,13 +186,8 @@ Data Science | Machine Learning | SQL | Python
 
 🔗 GitHub: [https://github.com/Satishji111](https://github.com/Satishji111)
 
-
-⭐ If you like this project, give it a star!
-
-This helps others discover the project and motivates further improvements 🚀
-
 ---
 
-## ⭐ If you like this project, give it a star!
+## If you like this project, give it a star!
 
-This helps others discover the project and motivates further improvements 🚀
+This helps others discover the project and motivates further improvements
