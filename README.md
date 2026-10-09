@@ -1,10 +1,10 @@
-# 🛒 Store Sales Prediction
+# Store Sales Prediction
 
 An end-to-end **Machine Learning regression project** to predict store sales using historical retail data. This project follows **industry-standard modular coding practices**, robust data preprocessing, multiple ML models with hyperparameter tuning, and a complete prediction pipeline.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Retail businesses rely heavily on accurate sales forecasting for inventory planning, supply chain optimization, and revenue growth. This project aims to **predict `Item_Outlet_Sales`** using product-level and outlet-level attributes.
 
@@ -18,7 +18,7 @@ Key highlights:
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 Given historical sales data of products across different outlets, predict the **sales of a product at a particular store**.
 
@@ -28,7 +28,7 @@ Given historical sales data of products across different outlets, predict the **
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```bash
 Store_Sales_Prediction/
@@ -60,9 +60,9 @@ Store_Sales_Prediction/
 
 ---
 
-## ⚙️ Technologies & Tools Used
+## Technologies & Tools Used
 
-* **Programming Language:** Python 🐍
+* **Programming Language:** Python
 * **Libraries:**
 
   * NumPy
@@ -80,7 +80,7 @@ Store_Sales_Prediction/
 
 ---
 
-## 🔄 Data Preprocessing Steps
+## Data Preprocessing Steps
 
 * Handling missing values
 * Mapping incorrect / inconsistent values
@@ -94,7 +94,7 @@ All transformations are handled using **Scikit-learn Pipelines** for consistency
 
 ---
 
-## 🤖 Models Implemented
+## Models Implemented
 
 The following regression models are trained and evaluated:
 
@@ -105,11 +105,11 @@ The following regression models are trained and evaluated:
 * Random Forest Regressor
 * XGBoost Regressor
 
-📌 **Best performing model** is selected based on evaluation metrics and saved for inference.
+**Best performing model** is selected based on evaluation metrics and saved for inference.
 
 ---
 
-## 📊 Model Evaluation Metrics
+## Model Evaluation Metrics
 
 * R² Score
 * Mean Absolute Error (MAE)
@@ -118,7 +118,7 @@ The following regression models are trained and evaluated:
 
 ---
 
-## 🔮 Prediction Pipeline
+## Prediction Pipeline
 
 The `PredictPipeline`:
 
@@ -131,16 +131,16 @@ A `CustomData` class is used to convert user inputs into a DataFrame format.
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Satishji111/Store_Sales_Prediction.git
 cd Store_Sales_Prediction
 ```
 
-### 2️⃣ Create Virtual Environment (Optional but Recommended)
+### 2. Create Virtual Environment (Optional but Recommended)
 
 ```bash
 python -m venv venv
@@ -148,19 +148,19 @@ source venv/bin/activate   # For Linux/Mac
 venv\Scripts\activate      # For Windows
 ```
 
-### 3️⃣ Install Dependencies
+### 3️. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run Training Pipeline
+### 4️. Run Training Pipeline
 
 ```bash
 python src/pipeline/train_pipeline.py
 ```
 
-### 5️⃣ Run Prediction Pipeline
+### 5️. Run Prediction Pipeline
 
 ```bash
 python src/pipeline/predict_pipeline.py
@@ -168,7 +168,7 @@ python src/pipeline/predict_pipeline.py
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 * Add model explainability (SHAP / LIME)
 * Build REST API using Flask/FastAPI
@@ -178,11 +178,11 @@ python src/pipeline/predict_pipeline.py
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Satish Yadav**
-Senior Data Research Analyst
-📊 Data Science | Machine Learning | SQL | Python
+Senior Data Analyst
+Data Science | Machine Learning | SQL | Python
 
 🔗 GitHub: [https://github.com/Satishji111](https://github.com/Satishji111)
 
